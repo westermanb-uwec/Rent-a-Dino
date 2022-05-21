@@ -1,0 +1,118 @@
+body{
+    background-color: #322a0e;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    font-size:x-large;
+}
+nav>img{
+    max-width: 4rem;
+    float: left;
+}
+.banner{
+    margin:2rem;
+    padding: 2rem;
+    font-size: xx-large;
+    background-color: #39444c;
+    border-radius: 10px;
+    text-align: center;
+    font-style: italic;
+}
+nav>a{
+    text-align: right;
+}
+.hours{
+    text-align: center;
+    background-color: #d7b774;
+    border-radius: 10px;
+}
+.info{
+    background-color: #d7b774;
+    border-radius: 10px;
+    padding: 25px;
+}
+.info>h2 {
+    text-align: center;
+}
+nav>h1{
+    text-align:center;
+}
+nav>a{
+    text-decoration: none;
+    color: #dcb594;
+}
+.values, .about, .mission{
+    background-color: #d7b774;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.values>img{
+    max-width: 100%;
+}
+.about>img{
+    max-width: 100%;
+}
+.about>h2, .mission>h2, .values>h2{
+    text-align: center;
+}
+.product{
+    background-color: #d7b774;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.product>img{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+.product>h2{
+    text-align: center;
+}
+.jobs, .position{
+    background-color: #d7b774;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.spots>h2, .jobs>h2{
+    text-align: center;
+}
+.position>h3{
+    text-align: center;
+}
+.supportabout, .faq, .contact{
+    background-color: #d7b774;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+form{
+    background-color: #d7b774;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+}
+.supportabout>h2{
+    text-align: center;
+}
+@media (min-width:700px){
+    nav{
+        text-align: right;
+    }
+    .about>img, .values>img{
+        display: block;
+        margin: auto;
+    }
+    .product>img{
+        max-width: 30%;
+    }
+    nav>img{
+        max-width: 6rem;
+    }
+}
